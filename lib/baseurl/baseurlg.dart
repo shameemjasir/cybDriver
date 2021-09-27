@@ -1,6 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-var imagebaseUrl1 = 'https://gogrocer.tecmanic.com/';
+var imagebaseUrl1 = 'http://cybbis.store/';
 var imagebaseUrl;
 void getImageBaseUrl() async{
   SharedPreferences.getInstance().then((value){
